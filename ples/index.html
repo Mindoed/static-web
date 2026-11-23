@@ -23,64 +23,115 @@
   <link href="css/style.css" rel="stylesheet" />
 
   <!-- Fonty-->
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Six+Caps&subset=latin,latin-ext&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="hero_area">
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="https://su.fit.vut.cz/ples/">
-            <span>Studentský ples FIT</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#info">Informace</a></li>
-                <li class="nav-item"><a class="nav-link" href="#galerie">Galerie</a></li>
-                <li class="nav-item"><a class="nav-link" href="#sponzori">Partneři</a></li>
-                <li class="nav-item"><a class="nav-link" href="mailto:Ples@su.fit.vut.cz">Kontakt</a></li>
-              </ul>
+      <div class="hero_area_overlay">
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="https://su.fit.vut.cz/ples/">
+              <span>studentský ples fit</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#info">Informace</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#galerie">Galerie</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#sponzori">Partneři</a></li>
+                  <li class="nav-item"><a class="nav-link" href="mailto:Ples@su.fit.vut.cz">Kontakt</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="slider_section position-relative">
+        <div class="container">
+          <div class="col-lg-10 col-md-11 mx-auto">
+            <div class="detail-box">
+              <h1 class="hero-title">studentský ples fit</h1>
+              <h3 class="hero-patronage">POD ZÁŠTITOU DĚKANA</h3>
+              <div style="display:flex; align-items:center; justify-content:center; flex-direction:row; gap: 4rem;">
+                <h1 class="hero-date">19. 02. 2027</h1>
+                <h1 class="hero-date">KC SEMILASSO</h1>
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
-    </header>
-
-    <section class="slider_section position-relative">
-      <div class="container">
-        <div class="col-lg-10 col-md-11 mx-auto">
-          <div class="detail-box">
-            <h1 class="hero-title">Studentský ples FIT</h1>
-            <h3 class="hero-patronage">POD ZÁŠTITOU DĚKANA</h3>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
+
 
   <section class="info_section layout_padding" id="info">
     <div class="container text-center">
-      <h2>Informace</h2>
+      <h2>informace</h2>
       <div class="info-text">
-        <p>Děkujeme všem za účast na letošním ročníku Studentského plesu FIT! Doufáme, že jste si večer plný tance a&nbsp;dobré zábavy naplno užili.</p>
-        <p>Další ročník se uskuteční <strong>19. 2. 2027</strong> – budeme rádi, když u&nbsp;toho opět budete.</p>
-        <p>Těšíme se na vás!</p>
+        <p></p> 
+        <p>Srdečně vás zveme na další ročník Studentského plesu FIT! Přijďte si s námi užít večer plný tance, hudby a skvělých zážitků v prostorách <a class="info-link" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/vpJnwtsYch5tQx7h8">KC Semilasso</a>. O skvělou hudební atmosféru se po celý večer postará kapela <a href="https://www.simplyfive.cz/" target="_blank" rel="noopener noreferrer" class="info-link"><strong>SimplyFive</strong></a>.</p>
+        <p>Bližší informace budou brzy zveřejněny! Sledujte náš web a sociální sítě Studentské unie, ať vám nic neunikne!</p>
+        <!-- <p>Cena vstupenky je <strong>500 Kč</strong>. V ceně je zahrnuta i vynikající večeře, jejíž nabídku naleznete <a href="#vecere" class="info-link">níže</a>.
+        <strong>Prodej vstupenek bude brzy zahájen.</strong> Sledujte náš web a sociální sítě Studentské unie, ať vám nic neunikne!</p>
+        <p class="info-notice">Rádi bychom vás taky informovali, že nošení vlastního alkoholu na ples je zakázáno. Děkujeme za pochopení.</p> -->
       </div> 
 
     </div>
   </section>
 
+
+  <section class="trainer_section layout_padding" id="vecere" style="display: none;">
+    <div class="container">
+      <div class="heading_container">
+        <h2>večeře</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="box">
+            <div class="detail-box">
+              <h5>VARIANTA A</h5>
+              <p>Smažený vepřový řízek<br>s&nbsp;bramborovým salátem s&nbsp;majonézou</p>
+              <p>(alergeny 1, 3, 7, 9, 10)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="box">
+            <div class="detail-box">
+              <h5>VARIANTA B</h5>
+              <p>Špíz s kuřecím masem<br>a dušenou rýží</p>
+              <p>(alergeny 1)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="box">
+            <div class="detail-box">
+              <h5>VARIANTA C</h5>
+              <p>Grilovaný hermelín<br>se zeleninovým salátem a&nbsp;toastem</p>
+              <p>(alergeny 1, 3, 7)</p>
+            </div>
+          </div>
+        </div>
+        <p class="food-details">
+          Nabízíme také bezlepkovou a&nbsp;bezlaktózovou variantu – nahlaste při koupi lístku.<br>
+          V&nbsp;případě dalších omezení se informujte <a href="mailto:Ples@su.fit.vut.cz">u&nbsp;organizátorů</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section class="wine_section layout_padding" id="galerie">
     <div class="container text-center">
-      <h2>Galerie</h2>
+      <h2>galerie</h2>
       <div class="gallery_links">
         <div><a href="https://drive.google.com/drive/folders/1m2Cduoej99KPMKU4APPAXCV6OzVynlC5?usp=sharing">Fotky 2026</a> <span>(Michal Vaňo)</span></div>
         <div><a href="https://drive.google.com/drive/u/2/folders/1Ox8EZXsNYrg4ptkx8ocKv3oStxEbJ65J">Fotky 2025</a> <span>(Michal Vaňo)</span></div>
@@ -93,7 +144,7 @@
   <section class="trainer_section layout_padding" id="sponzori">
     <div class="container">
       <div class="heading_container">
-        <h2>Děkujeme sponzorům plesu 2026!</h2>
+        <h2>děkujeme sponzorům plesu 2026!</h2>
       </div>
     </div>
   </section>
