@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  user-select: none;
 }
 
 a:hover {
@@ -201,6 +201,7 @@ a:hover {
 .info-link {
   color: var(--secondary);
   text-decoration: underline;
+  user-select: text;
 }
 
 .info-notice {
